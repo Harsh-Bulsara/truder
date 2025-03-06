@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation */
+header {
+    background: black;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* About Us Hero Section */
+.about-hero {
+    background: #32C3C6;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Who We Are Section */
+.who-we-are {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.who-we-are .content {
+    width: 50%;
+}
+
+.who-we-are .image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Vision & Mission */
+.vision-mission {
+    padding: 50px;
+    text-align: center;
+}
+
+.vision-mission ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vision-mission ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
